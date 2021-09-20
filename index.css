@@ -13,7 +13,7 @@ body {
 /* Container */
 .box {
     flex: 1;
-    max-width: 50%;
+    width: 50%;
 }
 
 /* Titulo */
@@ -118,7 +118,7 @@ body {
 }
 
 .foto-eu {
-    max-width: 50%;
+    width: 50%;
 }
 
 

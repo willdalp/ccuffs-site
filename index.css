@@ -135,12 +135,12 @@ body {
 
 @media (max-width: 450px) {
     .box {
-        max-width: 100%;
+        width: 100%;
         
     }
 
     .foto-eu {
-        max-width: 100%;
+        width: 100%;
     }
 
     .email {

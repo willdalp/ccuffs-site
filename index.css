@@ -57,6 +57,10 @@ body {
     color: #D5CA29;
 }
 
+.info {
+    color: rgb(180, 180, 180);
+}
+
 /* Minhas skills */
 .SKILLS {
     font-size: 1,5rem;

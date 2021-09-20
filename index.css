@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Corpo da Página */
+body {
+    display: flex;
+    font-family: "Consolas";
+}
+
+/* Container */
+.box {
+    flex: 1;
+    max-width: 50%;
+}
+
+/* Titulo */
+.titulo {
+    flex-wrap: wrap;
+    font-size: 2,5rem;
+    color: #00949A;
+    text-shadow: 1px 1px 1px #00ffea3d;
+    text-align: center;
+    margin-top: 72px;
+    margin-bottom: 50px;
+}
+
+
+/* Minhas informações */
+.textos {
+    text-align: center;
+}
+
+.Nome {
+    font-size: 1,3rem;
+    margin-bottom: 20px;
+}
+
+#Nome-cor {
+    color: #E450E9;
+}
+
+.faculdade {
+    font-size: 1,3rem;
+    color: #01BA07;
+    margin-bottom: 20px;
+}
+
+.msg {
+    font-size: 1,3rem;
+    margin-bottom: 60px;
+}
+
+#msg-cor {
+    color: #D5CA29;
+}
+
+/* Minhas skills */
+.SKILLS {
+    font-size: 1,5rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 1px 2px #6d6d6d4f;
+}
+
+.img-skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.foto1 {
+    margin: 21px;
+}
+
+
+/* Contato */
+.titulo-contato {
+    font-size: 1,5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 10px;
+    text-shadow: 2px 1px 2px #6d6d6d4f;
+}
+
+.foto-git {
+    display: flex;
+    justify-content: center;
+}
+
+.insta {
+    margin-left: 10px;
+}
+
+.email, a {
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#Nome-cor:hover {
+    color: #c345c7;
+    transition: 200ms;
+}
+
+.faculdade:hover {
+    color: #008b05;
+    transition: 200ms;
+}
+
+#msg-cor:hover {
+    color: #c4b926;
+    transition: 200ms;
+}
+
+.foto-eu {
+    max-width: 50%;
+}
+
+
+/* "RESPONSIVIDADE DO SITE PESSOAL" */
+@media (max-width: 450px) {
+    body {
+        display: block;
+    }
+
+    * {
+        overflow: scroll;
+    }
+}
+
+@media (max-width: 450px) {
+    .box {
+        max-width: 100%;
+        
+    }
+
+    .foto-eu {
+        max-width: 100%;
+    }
+
+    .email {
+        margin: 25px;
+    }
+}
